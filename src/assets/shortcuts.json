@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Editing",
+    "commands": [
+      { "action": "Cut Line", "shortcut": "Ctrl+X" },
+      { "action": "Copy Line", "shortcut": "Ctrl+C" },
+      { "action": "Paste", "shortcut": "Ctrl+V" },
+      { "action": "Duplicate Line", "shortcut": "Shift+Alt+Down" },
+      { "action": "Delete Line", "shortcut": "Ctrl+Shift+K" },
+      { "action": "Move Line Up", "shortcut": "Alt+Up" },
+      { "action": "Move Line Down", "shortcut": "Alt+Down" },
+      { "action": "Insert Line Below", "shortcut": "Ctrl+Enter" },
+      { "action": "Insert Line Above", "shortcut": "Ctrl+Shift+Enter" },
+      { "action": "Select Line", "shortcut": "Ctrl+L" },
+      { "action": "Go to Beginning of Line", "shortcut": "Home" },
+      { "action": "Go to End of Line", "shortcut": "End" },
+      { "action": "Join Lines", "shortcut": "Ctrl+J" },
+      { "action": "Indent Line", "shortcut": "Ctrl+]" },
+      { "action": "Outdent Line", "shortcut": "Ctrl+[" },
+      { "action": "Comment/Uncomment Line", "shortcut": "Ctrl+/" },
+      { "action": "Toggle Block Comment", "shortcut": "Shift+Alt+A" },
+      { "action": "Format Document", "shortcut": "Shift+Alt+F" },
+      { "action": "Format Selection", "shortcut": "Ctrl+K Ctrl+F" },
+      { "action": "Rename Symbol", "shortcut": "F2" }
+    ]
+  },
+  {
+    "name": "Navigation",
+    "commands": [
+      { "action": "Quick Open", "shortcut": "Ctrl+P" },
+      { "action": "Go to Definition", "shortcut": "F12" },
+      { "action": "Peek Definition", "shortcut": "Alt+F12" },
+      { "action": "Go to Line", "shortcut": "Ctrl+G" },
+      { "action": "Go to Symbol", "shortcut": "Ctrl+Shift+O" },
+      { "action": "Go Back", "shortcut": "Alt+Left" },
+      { "action": "Go Forward", "shortcut": "Alt+Right" },
+      { "action": "Show All Symbols", "shortcut": "Ctrl+T" },
+      { "action": "Open File Explorer", "shortcut": "Ctrl+Shift+E" },
+      { "action": "Show Command Palette", "shortcut": "Ctrl+Shift+P" },
+      { "action": "Navigate to Matching Bracket", "shortcut": "Ctrl+Shift+\\" }
+    ]
+  },
+  {
+    "name": "Multi-Cursor Editing",
+    "commands": [
+      { "action": "Add Cursors to Selection", "shortcut": "Ctrl+Click" },
+      { "action": "Add Next Occurrence", "shortcut": "Ctrl+D" },
+      { "action": "Select All Occurrences", "shortcut": "Ctrl+Shift+L" },
+      { "action": "Insert Cursor Above", "shortcut": "Ctrl+Alt+Up" },
+      { "action": "Insert Cursor Below", "shortcut": "Ctrl+Alt+Down" },
+      { "action": "Undo Last Cursor Action", "shortcut": "Ctrl+U" }
+    ]
+  },
+  {
+    "name": "Search and Replace",
+    "commands": [
+      { "action": "Find", "shortcut": "Ctrl+F" },
+      { "action": "Replace", "shortcut": "Ctrl+H" },
+      { "action": "Find Next", "shortcut": "F3" },
+      { "action": "Find Previous", "shortcut": "Shift+F3" },
+      { "action": "Select All Matches", "shortcut": "Ctrl+Shift+L" },
+      { "action": "Toggle Case-Sensitive Find", "shortcut": "Alt+C" },
+      { "action": "Toggle Whole Word Find", "shortcut": "Alt+W" },
+      { "action": "Toggle Regex Find", "shortcut": "Alt+R" }
+    ]
+  },
+  {
+    "name": "View and Window Management",
+    "commands": [
+      { "action": "Split Editor", "shortcut": "Ctrl+\\" },
+      { "action": "Toggle Sidebar Visibility", "shortcut": "Ctrl+B" },
+      { "action": "Focus into Editor", "shortcut": "Ctrl+1" },
+      { "action": "Focus into Sidebar", "shortcut": "Ctrl+2" },
+      { "action": "Focus into Panel", "shortcut": "Ctrl+3" },
+      { "action": "Move Editor Left", "shortcut": "Ctrl+Shift+PageUp" },
+      { "action": "Move Editor Right", "shortcut": "Ctrl+Shift+PageDown" },
+      { "action": "Zoom In", "shortcut": "Ctrl+=" },
+      { "action": "Zoom Out", "shortcut": "Ctrl+-" },
+      { "action": "Toggle Full Screen", "shortcut": "F11" },
+      { "action": "Toggle Zen Mode", "shortcut": "Ctrl+K Z" }
+    ]
+  },
+  {
+    "name": "Integrated Terminal",
+    "commands": [
+      { "action": "Toggle Terminal", "shortcut": "Ctrl+`" },
+      { "action": "Create New Terminal", "shortcut": "Ctrl+Shift+`" },
+      { "action": "Focus Terminal", "shortcut": "Ctrl+`" },
+      { "action": "Kill Terminal", "shortcut": "Ctrl+Shift+W" },
+      { "action": "Scroll Up", "shortcut": "Ctrl+Up" },
+      { "action": "Scroll Down", "shortcut": "Ctrl+Down" },
+      { "action": "Clear Terminal", "shortcut": "Ctrl+K" }
+    ]
+  },
+  {
+    "name": "Debugging",
+    "commands": [
+      { "action": "Start/Continue Debugging", "shortcut": "F5" },
+      { "action": "Step Over", "shortcut": "F10" },
+      { "action": "Step Into", "shortcut": "F11" },
+      { "action": "Step Out", "shortcut": "Shift+F11" },
+      { "action": "Toggle Breakpoint", "shortcut": "F9" },
+      { "action": "Run to Cursor", "shortcut": "Ctrl+F10" },
+      { "action": "Restart Debugging", "shortcut": "Ctrl+Shift+F5" }
+    ]
+  },
+  {
+    "name": "Git Integration",
+    "commands": [
+      { "action": "Open Git Panel", "shortcut": "Ctrl+Shift+G" },
+      { "action": "Commit All", "shortcut": "Ctrl+Enter" },
+      { "action": "Stage File", "shortcut": "Ctrl+Shift+Enter" },
+      { "action": "View Changes in File", "shortcut": "Ctrl+K D" },
+      { "action": "Open Changes Side-by-Side", "shortcut": "Ctrl+Shift+D" }
+    ]
+  }
+]
