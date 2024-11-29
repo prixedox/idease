@@ -1,14 +1,12 @@
 <h1>Cheatsheet</h1>
-<div *ngFor="let category of categories">
-  <h2>{{ category.name }}</h2>
-  <table class="table">
+<table class="">
+  <ng-container *ngFor="let category of categories">
     <tr>
-      <th>Action</th>
-      <th>Shortcut</th>
+      <th>{{ category.name }}</th>
     </tr>
     <tr *ngFor="let command of category.commands">
       <td>{{ command.action }}</td>
       <td>{{ command.shortcut }}</td>
     </tr>
-  </table>
-</div>
+  </ng-container>
+</table>
